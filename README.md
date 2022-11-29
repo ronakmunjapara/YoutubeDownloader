@@ -4,22 +4,22 @@ I have made a simple web app with Streamlit to allow for audio and video downloa
 
 The video defaults to 1080p and gets the highest resolution if 1080p is not available.
 
-## Installation
+# Installation
 We recommended to install it and all its dependencies, inside a virtual environnement and through the Python Package Index.
 
 Using virtualenv allows you to avoid installing Python packages globally which could break system tools or other projects. You can install virtualenv using pip.
 
-# Creating a virtual environment
+## Creating a virtual environment
 ```
   virtualenv env
   ```
   
-# Install dependencies
+## Install dependencies
 ```
   pip install streamlit
   pip install -r requirements.txt 
   ```
-# Run
+## Run
 ```
   streamlit run streamlit_app.py
   ```
