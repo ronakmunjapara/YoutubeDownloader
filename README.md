@@ -13,7 +13,11 @@ Creating a virtual environment
   virtualenv env
   
 Install dependencies
+```
   pip install streamlit
-  pip install -r requirements.txt  
+  pip install -r requirements.txt 
+  ```
 Run
+```
   streamlit run streamlit_app.py
+  ```
